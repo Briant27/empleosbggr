@@ -47,7 +47,7 @@ public class HomeController {
 		usuario.agregar(per);
 		
 		usuariosService.guardar(usuario);
-		return "redirect:/usuarios/indexPaginado";	
+		return "redirect:/";	
 		
 	}
 	
